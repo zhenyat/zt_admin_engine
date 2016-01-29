@@ -1,0 +1,10 @@
+en:
+  users:
+    index:
+      header:     Listing Users
+    edit:
+      header:     Editing User
+    new:
+      header:     New User
+    show:
+      header:     Showing User

@@ -1,0 +1,13 @@
+ru:
+  buttons:
+    actions:      Действия
+    add:          Добавить
+    back:         Назад
+    destroy:      Удалить
+    edit:         Редактировать
+    show:         Показать
+  etc:
+    to_home:      На главную
+    versions:     Версии
+
+

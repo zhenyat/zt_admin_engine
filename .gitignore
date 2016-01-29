@@ -1,6 +1,14 @@
 .bundle/
 log/*.log
 pkg/
+
+# Ignore Mac OS X sys files
+*.DS_Store
+*/.DS_Store
+
+# Ignore NetBeans files
+/nbproject
+
 test/dummy/db/*.sqlite3
 test/dummy/db/*.sqlite3-journal
 test/dummy/log/*.log

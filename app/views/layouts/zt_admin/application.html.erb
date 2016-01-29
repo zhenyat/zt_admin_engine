@@ -1,14 +1,21 @@
 <!DOCTYPE html>
 <html>
-<head>
-  <title>Zt admin</title>
-  <%= stylesheet_link_tag    "zt_admin/application", media: "all" %>
-  <%= javascript_include_tag "zt_admin/application" %>
-  <%= csrf_meta_tags %>
-</head>
-<body>
+  <head>
+    <title>ZT Admin</title>
+    <%= stylesheet_link_tag    "zt_admin/application", media: "all" %>
+    <%= javascript_include_tag "zt_admin/application" %>
+    <%= csrf_meta_tags %>
 
-<%= yield %>
+    <%= render 'layouts/zt_admin/shim' %>
+  </head>
+  <body>
+    <%#= render 'layouts/zt_admin/header' %>
+    <%= render "layouts/zt_admin/top_navbar" %>
 
-</body>
+    <div class="container">
+      <%= yield %>
+    </div>
+
+    <%= render 'layouts/zt_admin/footer' %>
+  </body>
 </html>

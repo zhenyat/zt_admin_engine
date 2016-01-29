@@ -87,6 +87,7 @@ app\:tmp\:clear=Clear cache and socket files from tmp/ (narrow w/ tmp:cache:clea
 app\:tmp\:create=Creates tmp directories for cache, sockets, and pids
 app\:tmp\:pids\:clear=
 app\:tmp\:sockets\:clear=
+app\:zt_admin\:install\:migrations=Copy migrations from zt_admin to application
 build=Build zt_admin-0.1.0.gem into the pkg directory.
 clobber=
 clobber_rdoc=Remove RDoc HTML files

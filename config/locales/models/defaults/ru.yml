@@ -1,0 +1,8 @@
+ru:
+  messages:
+    created:        '%{model} успешно создан'
+    deleated:       '%{model} успешно удален'
+    confirm:        'Вы уверены?'
+    updated:        '%{model} успешно изменен'
+    uploaded:       Файл успешно загружен
+
